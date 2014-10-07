@@ -12,7 +12,10 @@ public class Boletin22 {
         System.out.println("lado");
         Scanner dato= new Scanner (System.in);
         lado = dato.nextFloat();
-        System.out.println("area="+ (lado*lado));
+        area=(lado*lado);
+        area=(float) Math.pow(lado,2);
+        System.out.println("area=" + area );
+        
  
     }
     
